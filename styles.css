@@ -31,16 +31,16 @@ body {
 
 .st-container,
 .st-section {
-  max-width: 1100px;
-  margin: 0 auto;
   padding: 4.5rem 1.5rem;
 }
 
-.st-section h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
+/* Constrain inner content while allowing full-width backgrounds */
+.st-section > * {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 /* ======================
    HERO
