@@ -292,7 +292,7 @@ textarea{ min-height: 120px; resize: vertical; }
 
 .footer{
   border-top: 1px solid var(--border);
-  padding: 18px 0;
+  padding: 18px 0; 
   color: var(--faint);
   background: rgba(0,0,0,0.08);
 }
