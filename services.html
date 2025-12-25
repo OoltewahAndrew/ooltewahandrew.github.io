@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services – Signal Thread</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="st-wrapper">
+    <header class="st-header">
+      <div class="st-container st-header-inner">
+        <a class="brand" href="index.html" aria-label="Signal Thread Home">
+          <div class="mark" aria-hidden="true"></div>
+          <div><span>Signal Thread</span><small>Public safety analytics</small></div>
+        </a>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a class="active" href="services.html">Services</a>
+          <a href="how-it-works.html">How It Works</a>
+          <a href="who-we-serve.html">Who We Serve</a>
+          <a href="sample-work.html">Sample Work</a>
+          <a href="about.html">About</a>
+          <a href="data-security.html">Data Security</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="st-container">
+          <div class="section-head">
+            <h1>Services</h1>
+            <div class="faint">Clear scopes. Practical deliverables. No jargon tax.</div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card pad service">
+              <h2>Staffing & Coverage Analysis</h2>
+              <p><strong>Problem it solves:</strong> Unclear staffing needs, overtime pressure, or questions about coverage adequacy.</p>
+              <p><strong>What you get:</strong></p>
+              <ul class="list">
+                <li>Staffing curves by hour/day (where coverage is thin or strong)</li>
+                <li>Coverage gaps tied to call demand and response patterns</li>
+                <li>Plain-language findings and recommended options</li>
+              </ul>
+              <div class="meta">
+                <span class="tag">Typical timeline: 2–3 weeks</span>
+                <span class="tag">Board-ready report</span>
+              </div>
+            </div>
+
+            <div class="card pad service">
+              <h2>Call Volume & Demand Modeling</h2>
+              <p><strong>Problem it solves:</strong> Decisions based on totals instead of demand patterns.</p>
+              <p><strong>What you get:</strong></p>
+              <ul class="list">
+                <li>Call volume by time, unit type, and response category</li>
+                <li>Demand overlays that show peak pressure windows</li>
+                <li>Visuals designed for boards and committees</li>
+              </ul>
+              <div class="meta">
+                <span class="tag">Typical timeline: 2–4 weeks</span>
+                <span class="tag">RMS/CAD-agnostic</span>
+              </div>
+            </div>
+
+            <div class="card pad service">
+              <h2>Budget & Millage Support</h2>
+              <p><strong>Problem it solves:</strong> Difficulty connecting operational needs to funding requests.</p>
+              <p><strong>What you get:</strong></p>
+              <ul class="list">
+                <li>Cost drivers tied directly to service demand and coverage needs</li>
+                <li>Scenario comparisons (status quo vs proposed)</li>
+                <li>Materials designed for public and board review</li>
+              </ul>
+              <div class="meta">
+                <span class="tag">Typical timeline: 3–4 weeks</span>
+                <span class="tag">Meeting-ready slides</span>
+              </div>
+            </div>
+
+            <div class="card pad service">
+              <h2>Executive Dashboards & Reports</h2>
+              <p><strong>Problem it solves:</strong> Data exists but isn’t decision-ready.</p>
+              <p><strong>What you get:</strong></p>
+              <ul class="list">
+                <li>Executive dashboards focused on operational and budget questions</li>
+                <li>Plain-language summaries for non-technical audiences</li>
+                <li>Exportable reports for packets and committee review</li>
+              </ul>
+              <div class="meta">
+                <span class="tag">Typical timeline: 2–3 weeks</span>
+                <span class="tag">PDF + visuals</span>
+              </div>
+            </div>
+
+            <div class="card pad service" style="grid-column: 1 / -1;">
+              <h2>Custom Board Presentations</h2>
+              <p><strong>Problem it solves:</strong> Technical findings that don’t land with elected officials.</p>
+              <p><strong>What you get:</strong></p>
+              <ul class="list">
+                <li>Board-ready slide decks with simplified visuals</li>
+                <li>Talking points for chiefs and administrators</li>
+                <li>Clear framing for public meetings and stakeholder questions</li>
+              </ul>
+              <div class="meta">
+                <span class="tag">Typical timeline: 1–2 weeks after analysis</span>
+                <span class="tag">Public-meeting safe</span>
+              </div>
+
+              <div class="callout">
+                <strong>Example board question we design for:</strong>
+                “What changed, what does it cost, and what do we get for it?”
+              </div>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="btn primary" href="contact.html">Request a Consultation</a>
+            <a class="btn" href="sample-work.html">See Sample Outputs</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="st-container footer-inner">
+        <div>© <span id="y"></span> Signal Thread</div>
+        <div><a href="data-security.html">Data Security</a> · <a href="contact.html">Contact</a></div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
