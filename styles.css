@@ -353,4 +353,105 @@ a:hover {
 .st-link-card:focus {
   background: rgba(255, 255, 255, 0.10);
 }
+/* ======================
+   MOBILE RESPONSIVENESS
+====================== */
+
+@media (max-width: 768px) {
+
+  /* ---- Global spacing ---- */
+
+  .st-container,
+  .st-section {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .st-surface {
+    padding: 2rem 1.5rem;
+  }
+
+  /* ---- Header / Nav ---- */
+
+  .st-header-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .st-nav {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .st-nav .st-link-card {
+    text-align: center;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  /* ---- Hero ---- */
+
+  .st-hero h1 {
+    font-size: 2rem;
+    line-height: 1.15;
+  }
+
+  .st-hero p {
+    font-size: 1.05rem;
+  }
+
+  .st-ecg {
+    max-width: 100%;
+  }
+
+  /* ---- Buttons ---- */
+
+  .st-btn-pill {
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 1rem;
+  }
+
+  /* ---- Grids ---- */
+
+  .st-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* ---- Cards ---- */
+
+  .st-card {
+    padding: 1.5rem;
+  }
+
+  /* ---- Process ---- */
+
+  .st-process {
+    padding: 2rem 1.5rem;
+  }
+
+  .st-process-line {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: left;
+  }
+
+  .st-process-line span {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  /* ---- Footer ---- */
+
+  .st-footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .st-footer .st-link-card {
+    width: 100%;
+  }
+}
 
